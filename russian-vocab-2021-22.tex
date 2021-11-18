@@ -1,0 +1,51 @@
+\documentclass[letterpaper,11pt]{book}
+
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{color}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage[hang,flushmargin]{footmisc}
+\usepackage{dblfnote}
+\usepackage{enumitem}
+\RequirePackage{cmap}
+\usepackage[OT2,T1]{fontenc}
+
+\DFNalwaysdouble % for this example
+
+\usepackage{hyperref}
+
+\hypersetup{
+    bookmarks=true, unicode=false,
+    pdftoolbar=true, pdfmenubar=true, pdffitwindow=false,
+    pdfstartview={FitH}, pdftitle={Russian Vocabulary},
+    pdfauthor={P Sopasakis},
+    pdfkeywords={}, pdfsubject={Confidential}, 
+    pdfnewwindow=true, colorlinks=true, linkcolor=red,
+    citecolor=cyan, filecolor=magenta, urlcolor=RoyalBlue
+}
+
+\usepackage{parskip}
+\setlength{\parindent}{0pt}
+
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+\newcommand{\comment}[1]{\textcolor{gray}{\it #1}}
+\newcommand{\explain}[2]{\red{#1}\footnote{#1{}:{} #2}}
+\newcommand{\explainDetail}[3]{\red{#1}\footnote{#2{}:{} #3}}
+
+\title{Газетные и Журнальные Статьи}
+\author{Пантелис Сопасакис}
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+\input{tex/arts.tex}
+\input{tex/science.tex}
+
+
+
+
+
+
+\end{document}
