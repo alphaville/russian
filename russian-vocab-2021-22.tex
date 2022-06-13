@@ -11,6 +11,9 @@
 \RequirePackage{cmap}
 \usepackage[OT2,T1]{fontenc}
 \usepackage{wrapfig}
+\usepackage{longtable}
+\usepackage[official]{eurosym}
+\usepackage{nicefrac}
 
 \usepackage{lipsum}
 \usepackage{tikz}
@@ -81,6 +84,7 @@
 \newcommand{\comment}[1]{\textcolor{gray}{\it #1}}
 \newcommand{\explain}[2]{\red{#1}\footnote{#1{}:{} #2}}
 \newcommand{\explainDetail}[3]{\red{#1}\footnote{#2{}:{} #3}}
+\newcommand{\ed}[3]{\red{#1}\footnote{#2{}:{} #3}}
 
 
 \newenvironment{dialogue}{\list{---}{\it \itemsep=0.05\parskip \topsep=0.75\parskip \parsep=0.75\parskip}}{\endlist}
@@ -93,11 +97,34 @@
 \maketitle
 \tableofcontents
 
-\input{tex/arts.tex}
-\input{tex/skazki.tex}
-\input{tex/music.tex}
-\input{tex/science.tex}
-\input{tex/news.tex}
+
+\input{tex/1_weather.tex}
+\input{tex/2_turism.tex}
+\input{tex/3_appearance.tex}
+\input{tex/4_personality.tex}
+\input{tex/5_education.tex}
+\input{tex/6_env_nature.tex}
+\input{tex/7_science.tex}
+\input{tex/8_sport.tex}
+\input{tex/9_horoscope.tex}
+\input{tex/10_health_wellbeing_medicine.tex}
+\input{tex/11_music.tex}
+\input{tex/12_arts.tex}
+\input{tex/13_fashion.tex}
+\input{tex/14_leisure.tex}
+\input{tex/15_professions.tex}
+\input{tex/16_transportation.tex}
+\input{tex/17_unemployment.tex}
+\input{tex/18_films.tex}
+\input{tex/19_russian_cities.tex}
+\input{tex/20_russian_culture_traditions.tex}
+\input{tex/21_history.tex}
+\input{tex/22_skazki.tex}
+\input{tex/23_politics_economics.tex}
+\input{tex/24_food_recipes.tex}
+
+% \input{tex/simple.tex}
+% \input{tex/news.tex}
 
 
 
