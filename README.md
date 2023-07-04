@@ -21,9 +21,9 @@ Russian texts from newspapers and magazines, with notes on vocabulary and gramma
 15. Война и мир (3 ст.)
 16. Личность, Характер и Психология (10 ст.)
 17. Выборы (1 ст.)
-18. Образование  (10 ст.)
+18. Образование (11 ст.)
 19. История (1 ст.)
-20. Расизм
+20. Расизм (2 ст.)
 21. Перенаселение
 22. Религия (2 ст.)
 23. Исскуственный интелект 
@@ -45,3 +45,8 @@ Russian texts from newspapers and magazines, with notes on vocabulary and gramma
 39. Политика
 40. Культура, Обычаи и Традиции (4 ст.)
 41. Сказки (2 ст.)
+
+## Disclaimer
+
+The above texts are for the purpose of learning Russian; I do not necessarily endorse the opinions expressed in these articles. The texts have been taken from online magazines, online newspapers, Wikipedia and elsewhere; appropriate links have been provided. Although I've done my best, some of the translations may be inaccurate.
+
