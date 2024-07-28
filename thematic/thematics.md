@@ -1,0 +1,34 @@
+## Темы
+
+- Животные
+- Внешность
+- Digital communication
+- Movies
+- Art
+- Music
+- Foods, cooking, ingredients
+- Human body and anatomy
+- Sciences
+- Personality traits
+- Buildings, construction
+- History
+- Computers
+- Relationships
+- News
+- Shopping
+- Education
+- Drugs and addictions
+- Psychology
+- Law and justice
+- Business
+- Environment and nature
+- Health and sickness
+- Politics, elections
+- Transportation
+- Stationery
+- Hobbies and activities
+- Religion
+- Plants
+- Economics
+- Travelling
+- Short stories and farytales
